@@ -2,4 +2,39 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.top-buttons,
+.top-logo,
+nav,
+ul,
+li {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    min-height: 150px;
+}
+
+.top-logo img {
+    max-height: 100px;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+    outline: 3px solid rgb(30,36, 128);
+    border-radius: 10px;
+}
+
+a {
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(30, 36, 128);
+    text-decoration: none;
 }
