@@ -27,25 +27,27 @@ li {
 }
 
 nav {
-    background-color: #0D0D0D;
-    border-bottom: 3px solid white;
+    flex: auto;
+    background-color: white;
+    border-bottom: 5px solid rgb(30,36, 128);
     /* border-radius: 30px; */
     justify-content: space-around;
     align-items: center;
-    min-height: 120px;
+    max-height: 60px;
 }
 
 .top-logo img {
     max-height: 100px;
-    border: 5px solid white;
+    background-color: rgb(30,36, 128);
+    border: 1px solid rgb(30,36, 128);
     border-radius: 100px;
 }
 
 li {
     list-style: none;
     margin: 10px;
-    outline: 4px solid white;
-    background-color: rgb(30,36, 128);
+    outline: 4px solid rgb(30,36, 128);
+    background-color: white;
     border-radius: 10px;
 }
 
@@ -53,18 +55,23 @@ a {
     margin: 5px;
     font-size: 20px;
     font-weight: bold;
-    color: white;
+    color: rgb(30,36, 128);
     text-decoration: none;
 }
 
 li:hover,
 a:hover {
-    background-color: white;
-    color: rgb(30,36, 128)
+    background-color: rgb(30,36, 128);
+    color: white;
 }
 
 li:hover {
-    outline: 4px solid rgb(30,36, 128);
+    outline: 4px solid #0D0D0D;
+}
+
+.top-buttons {
+    align-self: flex-start;
+    margin: 3px;
 }
 
 .hero {
@@ -75,7 +82,7 @@ li:hover {
     font-weight: bold;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    min-height: 500px;
+    min-height: 700px;
 }
 
 .header {
@@ -107,7 +114,7 @@ li:hover {
 }
 
 .logo-a:hover {
-    background-color: black;
+    background-color: white;
 }
 
 footer {
