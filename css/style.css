@@ -8,8 +8,8 @@
 
 .bckgrd-img {
     min-height: 600px;
-    background-color: rgb(200, 120, 80);    
-    /* background-color: rgb(107, 94, 88); */
+    /* background-color: rgb(200, 120, 80); */
+    background-color: rgb(107, 94, 88);
     background-image: url(https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-position: center;
     background-size: cover;
@@ -70,7 +70,7 @@ li:hover {
 
 .top-buttons {
     align-self: flex-start;
-    margin: 3px;
+    margin: 1px;
 }
 
 .hero {
@@ -156,6 +156,7 @@ footer {
 .copyright {
     background-color: #0D0D0D;
     text-align: center;
+    font-weight: 500;
     display: flex;
     flex-flow: column wrap;
     place-content: center center;
@@ -180,5 +181,6 @@ footer {
 
     .p-second {
         font-size: large;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 }
