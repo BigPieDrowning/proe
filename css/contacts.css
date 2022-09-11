@@ -10,7 +10,8 @@
 .nav-logo,
 nav,
 ul,
-li {
+li,
+.hero {
     display: flex;
     flex-wrap: wrap;
 }
@@ -61,4 +62,22 @@ li:hover {
 .nav-buttons {
     align-self: flex-start;
     margin: 1px;
+}
+
+.hero {
+    place-content: center;
+    background-image: url(../images/reach-out.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 300px;
+}
+
+.text-container {
+    padding: 20;
+    color: white;
+    background: rgb(13, 13, 13, .4); /*the .4 at the 4th position of rgb is for opacity */
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-shadow: 0px 10px 9px black;
 }
